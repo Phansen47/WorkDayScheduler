@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- Meta tags, links, and title -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -25,7 +28,10 @@
   </head>
 
   <body>
-    <header class="p-5 mb-4">
+
+     <!-- Header info -->
+    
+    <header class="p-5 mb-4 center-header">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
@@ -39,6 +45,8 @@
         </button>
       </div>
 
+      <!-- 10AM timeblock -->
+
       <div id="hour-10" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -46,6 +54,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
+
+      <!-- 11AM timeblock -->
 
       <div id="hour-11" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
@@ -55,6 +65,8 @@
         </button>
       </div>
 
+      <!-- 12PM timeblock -->
+
       <div id="hour-12" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">12PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -62,6 +74,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
+
+      <!-- 1PM timeblock -->
 
       <div id="hour-13" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
@@ -71,6 +85,8 @@
         </button>
       </div>
 
+      <!-- 2PM timeblock -->
+
       <div id="hour-14" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">2PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -78,6 +94,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
+
+      <!-- 3PM timeblock -->
 
       <div id="hour-15" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">3PM</div>
@@ -87,6 +105,8 @@
         </button>
       </div>
 
+      <!-- 4PM timeblock -->
+
       <div id="hour-16" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">4PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -94,6 +114,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
+
+      <!-- 5PM timeblock -->
 
       <div id="hour-17" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">5PM</div>
@@ -103,6 +125,8 @@
         </button>
       </div>
 
+      <!-- 6PM timeblock -->
+
       <div id="hour-18" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">6PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -111,6 +135,8 @@
         </button>
       </div>
     </div>
+
+    <!-- jquery and javascript connections -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"

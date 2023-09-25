@@ -1,8 +1,17 @@
+/* Set the font family and font size for the entire document */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+/* Style to center header */
+.center-header {
+  justify-content: center;
+  text-align: center;
+  align-items: center ;
+}
+
+/* Style for textareas */
 textarea {
   background: transparent;
   border: none;
@@ -12,39 +21,47 @@ textarea {
   padding: 10px;
 }
 
+/* Preserve line breaks and wrap text within .description class */
 .description {
   white-space: pre-wrap;
 }
 
+/* Add rounded corners to time-blocks */
 .time-block {
   border-radius: 15px;
 }
 
+/* Add a top border to rows within .row class */
 .row {
   border-top: 1px solid white;
 }
 
+/* Style for the hour text */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* Style for past time-blocks */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/* Style for present time-blocks */
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/* Style for future time-blocks */
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+/* Style for save buttons */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -53,6 +70,7 @@ textarea {
   color: white;
 }
 
+/* Hover effect for save button icons */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
