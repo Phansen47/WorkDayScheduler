@@ -4,7 +4,7 @@ The Work Day Scheduler is a simple calendar application designed to help you sch
 This project utilizes HTML, CSS, JavaScript, and external libraries like Bootstrap and Font Awesome to create a responsive and visually appealing scheduling tool.
 
 ## Features
-Hourly time blocks for scheduling from 9 AM to 6 PM.
+Hourly time blocks for scheduling from 9 AM to 5 PM.
 Each time block includes:
 Hour indicator.
 Text input area for task descriptions.
@@ -15,7 +15,7 @@ Responsive layout for both desktop and mobile devices.
 
 ## Usage
 Open the Work Day Scheduler in your web browser.
-You will see time blocks from 9 AM to 6 PM.
+You will see time blocks from 9 AM to 5 PM.
 Each time block has an hour indicator, a text input area for task descriptions, and a save button.
 Type your task or appointment for each hour in the text input area.
 Click the "Save" button to store your task.
